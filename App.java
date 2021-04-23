@@ -20,7 +20,7 @@ public class App {
         Connection conn = DriverManager.getConnection("jdbc:derby:c:\\Users\\INSERTUSER\\Desktop\\Derby\\db-derby-10.14.2.0-bin\\hr;create=true");
         System.out.println("Connected to Derby Database.");
         //MongoClientURI uri = new MongoClientURI(
-        //"mongodb+srv://SchoolProj:testing123@cluster0.o7zf3.mongodb.net/schoolNOSQLversion?retryWrites=true&w=majority");
+        //"mongodb+srv://no spamming/schoolNOSQLversion?retryWrites=true&w=majority");
         //MongoClient mongoClient = new MongoClient(uri); //THIS MESSES UP DONT KNOW WHY EXACTLY AS MONGO SAYS to do
         //MongoDatabase database = mongoClient.getDatabase("test");
         ArrayList<Statement> statements = new ArrayList<Statement>();
